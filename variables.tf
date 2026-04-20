@@ -1,9 +1,9 @@
 variable "project" {
-  type = string
+  default = "roboshop"
 }
 
 variable "env" {
-  type = string
+  default = "dev"
 }
 
 variable "component" {
@@ -11,7 +11,7 @@ variable "component" {
 }
 
 variable "domain_name" {
-  type = string
+  default = "repaka.online"
 }
 
 variable "rule_priority" {
